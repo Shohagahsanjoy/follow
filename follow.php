@@ -221,7 +221,7 @@ $c=1;$thu=1;
 $mangcookie =[];
 if ($chedo<7){
 for($b=1;$b<=$luong;$b++){
-    echo $white." + ".$green."Enter Fb Token ".$thu.":$white ";
+    echo $white." + ".$green."Enter Fb Cookie".$thu.":$white ";
     $cooki[$c]=trim(fgets(STDIN));
     $ch=curl_init();
     $cookie=$cooki[$c];
