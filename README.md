@@ -4,12 +4,12 @@ pkg update
 
 pkg upgrade
 
-pkg install php
+pkg install python
 
 pkg install git 
 
-git clone https://github.com/Shohagahsanjoy/follow
+git clone https://github.com/Shohagahsanjoy/auto_share
 
-cd follow
+cd auto_share
 
-php follow.php
+python auto_share.py
